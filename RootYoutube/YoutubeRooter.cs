@@ -146,7 +146,8 @@ namespace RootYoutube
             }
             catch (Exception ex)
             {
-                // MessageBox.Show(ex.Message);
+                MessageBox.Show("This is an out of date version of Youtube Video & Audio downloader and has been temporarily locked by administrator. Please get in touch: http://shuhab.com/ContactMe.aspx for an up to date copy of this software.", ApplicationTitle, MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
+                return;
             }
             finally
             {
